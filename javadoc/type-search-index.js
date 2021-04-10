@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"clientserver","l":"CLI"},{"p":"clientserver","l":"Client"},{"p":"clientserver","l":"Fibonacci"},{"p":"clientserver","l":"Server"}];updateSearchResults();
