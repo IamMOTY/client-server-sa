@@ -36,4 +36,4 @@
 ## CLI
 Insert this in command line to run application.
 
-```java -jar clien-server.jar client|server <host> <port>```
+```java -jar client-server.jar client|server <host> <port>```
