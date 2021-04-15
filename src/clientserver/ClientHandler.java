@@ -3,6 +3,7 @@ package clientserver;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.math.BigInteger;
 import java.net.Socket;
 
 /**
@@ -42,7 +43,7 @@ class ClientHandler extends Thread {
                 }
                 try {
                     final int n = Integer.parseInt(received);
-                    final long fibonacci = Fibonacci.getNth(n);
+                    final BigInteger fibonacci = Fibonacci.getNth(n);
                     dos.writeUTF(String.format("%dth fibonacci number is %d\n", n, fibonacci));
                 } catch (final NumberFormatException e) {
                     dos.writeUTF("Invalid number format, input must be positive integral number.\n");
